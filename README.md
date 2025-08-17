@@ -1,8 +1,27 @@
-**INTRODUCTION**  
+<p align="right">
+  Language Switch / 语言选择：
+  <a href="./README.zh-CN.md">🇨🇳 中文</a> | <a href="./README.md">🇬🇧 English</a>
+</p>
+
+**INTRODUCTION**
+---
 This solution is used to practice understanding and applying design principles, such as SOLID patterns and other
 principles.
 
+**PRIVACY NOTICE**
+---
+This application may require inputting personal information or private data to generate customised suggestions,
+recommendations, and necessary results. However, please rest assured that the application does **NOT** collect, store,
+or transmit your personal information. All processing occurs locally in the browser or runtime environment, and **NO**
+data is sent to any external server or third-party service. The entire codebase is open and transparent — you are
+welcome to review the code [here](./) at any time to verify how your data is handled.
+
+**LICENCE**
+---
+This application is licensed under the [BSD-3-Clause License](LICENSE). You can click the link to read the licence.
+
 **HOW TO USE git-changelog built with Node.js**
+---
 
 1. If capable, you can update the installation tool npm by running the following command`npm install -g npm@x.x.x`,
    where x.x.x is your target npm version. You can then verify the installed npm version in Rider by running
