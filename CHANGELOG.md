@@ -20,6 +20,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Documentation
 
+- enhance README with language options, privacy notice, and license information
+  ([b3574bfb](https://github.com/DaoChaShao/csharp-basic/commit/b3574bfbc242e406b1f343cb5d490ac069b52518))
 - update README to reflect focus on design principles and SOLID patterns
   ([da741d0a](https://github.com/DaoChaShao/csharp-basic/commit/da741d0a0818aed4d9a90c5ac7e4c776461d0991))
 - add README file with instructions for using git-changelog
@@ -28,6 +30,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md with recent documentation entries
+  ([441d7723](https://github.com/DaoChaShao/csharp-basic/commit/441d7723968f64a09ac3bc7553b2763c5c272962))
 - update CHANGELOG.md with recent documentation and chore entries
   ([d96eea10](https://github.com/DaoChaShao/csharp-basic/commit/d96eea10e8aaba8ab1a9fb8cb103aa913e471351))
 - add initial changelog file
