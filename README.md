@@ -1,6 +1,6 @@
 **INTRODUCTION**  
-This repository stores code for learning fundamental C# concepts and skills. It also serves as a practice space for
-version control using Git and GitHub, including changelog management.
+This solution is used to practice understanding and applying design principles, such as SOLID patterns and other
+principles.
 
 **HOW TO USE git-changelog built with Node.js**
 
