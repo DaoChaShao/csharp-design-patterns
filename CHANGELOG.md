@@ -12,6 +12,28 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- add Program class to demonstrate product initialization and filtering by colour and size
+  ([e2b7063a](https://github.com/DaoChaShao/csharp-basic/commit/e2b7063a08cfa643597129b46caadcd9b47fd565))
+- add Product class to represent product details with name, colour, and size
+  ([8c20e7f7](https://github.com/DaoChaShao/csharp-basic/commit/8c20e7f7b3307a6e5f47703490925f57a40d38e3))
+- add Filter class for filtering products based on specifications
+  ([43d164b6](https://github.com/DaoChaShao/csharp-basic/commit/43d164b636f68a78de1934a2e6a64403c8a5e0a7))
+- add SpecificationSize class for size consistency evaluation
+  ([7278b3e1](https://github.com/DaoChaShao/csharp-basic/commit/7278b3e14ddc2bfc57c7d4031ce5d62450552cb7))
+- add SpecificationColour class for color consistency evaluation
+  ([495b35a9](https://github.com/DaoChaShao/csharp-basic/commit/495b35a9c818a53d677609a43feaa8c92e8c05cc))
+- add IAbstractFilter interface for filtering items based on specifications
+  ([9b83b699](https://github.com/DaoChaShao/csharp-basic/commit/9b83b699ed28688914718ec9032aeb55929e1b86))
+- add ISpecification interface for consistency evaluation in Open/Closed Principle project
+  ([4d3d6e6c](https://github.com/DaoChaShao/csharp-basic/commit/4d3d6e6ceb5ca5cad1b5c5c34b2cb04a72ff679f))
+- add Size enum for size representation in Open/Closed Principle project
+  ([83c767d0](https://github.com/DaoChaShao/csharp-basic/commit/83c767d0308aed87651fa48c483a907152039198))
+- add Colour enum for color representation in Open/Closed Principle project
+  ([3738472c](https://github.com/DaoChaShao/csharp-basic/commit/3738472c1f4e37b517b2f9aca75f74068e76c47f))
+- add project file for Open/Closed Principle implementation
+  ([fc2ce42c](https://github.com/DaoChaShao/csharp-basic/commit/fc2ce42c156a271490e270b76dedc42dd3e9056c))
+- add Open/Closed Principle project to solution
+  ([26eb6d5d](https://github.com/DaoChaShao/csharp-basic/commit/26eb6d5d91d6ff4f3a41b45119a1763d374976ac))
 - implement journal recording and persistence in Main method
   ([34185777](https://github.com/DaoChaShao/csharp-basic/commit/3418577714a9a21e81a000d5f514f9099cf0fb0f))
 - add StorageManager class for saving and loading journal entries as text files
@@ -40,6 +62,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([18a93383](https://github.com/DaoChaShao/csharp-basic/commit/18a93383cb42fdcdd4ebc9cd05a59b1f46bbaa3a))
 - update CHANGELOG.md with recent documentation updates
   ([31141fcb](https://github.com/DaoChaShao/csharp-basic/commit/31141fcb9790370590970ca2511bf256c4cafb5b))
 - update CHANGELOG.md with recent additions and enhancements
