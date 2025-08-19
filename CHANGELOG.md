@@ -4,7 +4,7 @@ __CHANGELOG__
 
 _All notable changes to this project will be documented in this file:_
 
-# v 0.1.0  (2025-08-17)
+# v 0.1.0  (2025-08-19)
 
 
 
@@ -12,6 +12,12 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- implement journal recording and persistence in Main method
+  ([34185777](https://github.com/DaoChaShao/csharp-basic/commit/3418577714a9a21e81a000d5f514f9099cf0fb0f))
+- add StorageManager class for saving and loading journal entries as text files
+  ([dce24f70](https://github.com/DaoChaShao/csharp-basic/commit/dce24f7034694cfe18016b28ec007b0f2977203d))
+- add Journal class to manage diary records with timestamping
+  ([e2c8c893](https://github.com/DaoChaShao/csharp-basic/commit/e2c8c8936287449237ef090c6b18265db5b9aecf))
 - add template file for commit messages
   ([107eccb7](https://github.com/DaoChaShao/csharp-basic/commit/107eccb7cb4beaf017f5c925453cd69fbcd55664))
 - add commit template file
@@ -34,6 +40,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md with recent documentation updates
+  ([31141fcb](https://github.com/DaoChaShao/csharp-basic/commit/31141fcb9790370590970ca2511bf256c4cafb5b))
 - update CHANGELOG.md with recent additions and enhancements
   ([be5c359f](https://github.com/DaoChaShao/csharp-basic/commit/be5c359f6197f4d8bff53215184fcdb85b7ae2d5))
 - update CHANGELOG.md with recent documentation enhancements
