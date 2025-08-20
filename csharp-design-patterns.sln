@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.A.Single.Responsibi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.B.Open.And.Closed.Principle", "A.SOLID.B.Open.And.Closed.Principle\A.SOLID.B.Open.And.Closed.Principle.csproj", "{44ED9CFC-89D0-42D8-A47F-BBE9F508593C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.C.Liskov.Substitution.Principle", "A.SOLID.C.Liskov.Substitution.Principle\A.SOLID.C.Liskov.Substitution.Principle.csproj", "{00096505-0B14-4D26-85FB-4BAAA76BD558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{44ED9CFC-89D0-42D8-A47F-BBE9F508593C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44ED9CFC-89D0-42D8-A47F-BBE9F508593C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44ED9CFC-89D0-42D8-A47F-BBE9F508593C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00096505-0B14-4D26-85FB-4BAAA76BD558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00096505-0B14-4D26-85FB-4BAAA76BD558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00096505-0B14-4D26-85FB-4BAAA76BD558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00096505-0B14-4D26-85FB-4BAAA76BD558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
