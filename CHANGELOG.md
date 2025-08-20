@@ -18,6 +18,20 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- implement Main method to demonstrate Square class inheritance from Shape and Rectangle
+  ([187332f8](https://github.com/DaoChaShao/csharp-basic/commit/187332f8945bffdaaa208587d3ba4d5bfd74fed8))
+- add SquareFromShape class inheriting from Shape with overridden Area method
+  ([51b811a1](https://github.com/DaoChaShao/csharp-basic/commit/51b811a19c58b496f4a65c440c5b4c56198d8e03))
+- add SquareFromRectangle class inheriting from Rectangle with overridden Area method
+  ([f8fc4418](https://github.com/DaoChaShao/csharp-basic/commit/f8fc4418c42008b7a87184a23f6e09943bb7a2d5))
+- implement Rectangle class inheriting from Shape with Area method
+  ([bd4f21bb](https://github.com/DaoChaShao/csharp-basic/commit/bd4f21bb0d8397a7d1ac369fb385bc250400fb16))
+- add abstract Shape class with Area method for Liskov Substitution Principle
+  ([389148d2](https://github.com/DaoChaShao/csharp-basic/commit/389148d29adf95cb6b0ac07057eb7dd660c8e58e))
+- add initial project file for Liskov Substitution Principle example
+  ([951eb344](https://github.com/DaoChaShao/csharp-basic/commit/951eb344fc6bbc88d8d5d0ab0b7be10f10ce7eaa))
+- add Liskov Substitution Principle project to solution
+  ([84551615](https://github.com/DaoChaShao/csharp-basic/commit/8455161527e6e557ac2f16ff943a78942b06420d))
 - enhance filtering by adding combined specification for colour and size
   ([322d3d75](https://github.com/DaoChaShao/csharp-basic/commit/322d3d75a3e8edd118a9289e3a666c66cfb1f7b3))
 - add SpecificationAnd class to combine multiple product specifications
@@ -72,6 +86,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([b5a280bb](https://github.com/DaoChaShao/csharp-basic/commit/b5a280bb115c1fb719b3c939330cd74349620882))
 - update CHANGELOG.md for version 0.1.0 release
   ([a809dfc4](https://github.com/DaoChaShao/csharp-basic/commit/a809dfc4acce719c8e4a266c659f5ecf3a3f3f8e))
 - update CHANGELOG.md for version 0.1.0 release
