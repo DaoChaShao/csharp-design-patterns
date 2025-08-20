@@ -18,6 +18,24 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- add Program class to demonstrate usage of OldFashionedPrinter and MultiplePrinter
+  ([81a74d12](https://github.com/DaoChaShao/csharp-basic/commit/81a74d129aaee6ebf258c2fffecb308668b9e82b))
+- implement MultiplePrinter class with IPrint, IFax, ICopy, and IScan interfaces
+  ([f2a49d51](https://github.com/DaoChaShao/csharp-basic/commit/f2a49d51ab0ed24105f721d863921f0c7a498c96))
+- implement OldFashionedPrinter class with IPrint and IFax interfaces
+  ([7e941a7e](https://github.com/DaoChaShao/csharp-basic/commit/7e941a7e0af915e081482bed64cb427f351c1df3))
+- add IScan interface for scanning functionality
+  ([4410ec57](https://github.com/DaoChaShao/csharp-basic/commit/4410ec57a801c0e1e04bcc51e40fc7124c89eb94))
+- add IPrint interface for printing functionality
+  ([f82fc9fc](https://github.com/DaoChaShao/csharp-basic/commit/f82fc9fc9339570ef2b5b69b8d357d6ea72e17d4))
+- add IFax interface for faxing functionality
+  ([be2a14cb](https://github.com/DaoChaShao/csharp-basic/commit/be2a14cbf9ccdf25d49a0078a3b893f65b2d054a))
+- add ICopy interface for content copying functionality
+  ([4c5382fd](https://github.com/DaoChaShao/csharp-basic/commit/4c5382fdec81ed45067e47911c0382deddc32992))
+- add project file for Interface Segregation Principle implementation
+  ([895a118d](https://github.com/DaoChaShao/csharp-basic/commit/895a118df52504e088804b5ebde4f15dd5872195))
+- add Interface Segregation Principle project to solution
+  ([7ddcce48](https://github.com/DaoChaShao/csharp-basic/commit/7ddcce483311f987e145a1d7227756af4c29a778))
 - implement Main method to demonstrate Square class inheritance from Shape and Rectangle
   ([187332f8](https://github.com/DaoChaShao/csharp-basic/commit/187332f8945bffdaaa208587d3ba4d5bfd74fed8))
 - add SquareFromShape class inheriting from Shape with overridden Area method
@@ -86,6 +104,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([e1169218](https://github.com/DaoChaShao/csharp-basic/commit/e1169218d5db7adbbd6859f5b31a34b3048664ed))
 - update CHANGELOG.md for version 0.1.0 release
   ([b5a280bb](https://github.com/DaoChaShao/csharp-basic/commit/b5a280bb115c1fb719b3c939330cd74349620882))
 - update CHANGELOG.md for version 0.1.0 release
