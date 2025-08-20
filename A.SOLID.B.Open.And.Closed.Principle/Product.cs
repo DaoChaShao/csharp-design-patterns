@@ -2,7 +2,7 @@ namespace A.SOLID.B.Open.And.Closed.Principle;
 
 internal class Product(string name, Colour colour, Size size)
 {
-    private string Name { get; } = name;
+    internal string Name { get; } = name;
     internal Colour Colour { get; } = colour;
     internal Size Size { get; } = size;
 
