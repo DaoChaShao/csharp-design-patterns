@@ -4,14 +4,24 @@ __CHANGELOG__
 
 _All notable changes to this project will be documented in this file:_
 
-# v 0.1.0  (2025-08-19)
+# v 0.1.0  (2025-08-20)
 
 
 
 ---
 
+## Bug Fixes
+
+- change Name property access modifier to internal in Product class
+  ([8e31172a](https://github.com/DaoChaShao/csharp-basic/commit/8e31172a989a85a65b5c9b89e69a10465686c754))
+
+
 ## Features
 
+- enhance filtering by adding combined specification for colour and size
+  ([322d3d75](https://github.com/DaoChaShao/csharp-basic/commit/322d3d75a3e8edd118a9289e3a666c66cfb1f7b3))
+- add SpecificationAnd class to combine multiple product specifications
+  ([e2e24b2e](https://github.com/DaoChaShao/csharp-basic/commit/e2e24b2e41f16be86f9dcca931893a3c830756f7))
 - add Program class to demonstrate product initialization and filtering by colour and size
   ([e2b7063a](https://github.com/DaoChaShao/csharp-basic/commit/e2b7063a08cfa643597129b46caadcd9b47fd565))
 - add Product class to represent product details with name, colour, and size
@@ -62,6 +72,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([a809dfc4](https://github.com/DaoChaShao/csharp-basic/commit/a809dfc4acce719c8e4a266c659f5ecf3a3f3f8e))
 - update CHANGELOG.md for version 0.1.0 release
   ([18a93383](https://github.com/DaoChaShao/csharp-basic/commit/18a93383cb42fdcdd4ebc9cd05a59b1f46bbaa3a))
 - update CHANGELOG.md with recent documentation updates
