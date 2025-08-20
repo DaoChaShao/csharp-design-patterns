@@ -33,12 +33,16 @@ class Program
 
         #endregion
 
+        #region OCP - Initialise filter
+
+        var filter = new Filter();
+
+        #endregion
+
         #region OCP - Colour
 
         var selectedColour = colours[random.Next(colours.Count)];
-
         var specificationColour = new SpecificationColour(selectedColour);
-        var filter = new Filter();
 
         var productsColour = filter.Products(cart, specificationColour);
         foreach (var product in productsColour)
@@ -51,13 +55,24 @@ class Program
         #region OCP - Size
 
         var selectedSize = sizes[random.Next(sizes.Count)];
-
         var specificationSize = new SpecificationSize(selectedSize);
 
         var productsSize = filter.Products(cart, specificationSize);
         foreach (var product in productsSize)
         {
             Console.WriteLine($"The {selectedSize} product is: {product}");
+        }
+
+        #endregion
+
+        #region OCP - And
+
+        var specificationAnd = new SpecificationAnd(specificationColour, specificationSize);
+
+        var productsAnd = filter.Products(cart, specificationAnd);
+        foreach (var product in productsAnd)
+        {
+            Console.WriteLine($"The {product.Name} with {product.Colour} and {product.Size} is filtered.");
         }
 
         #endregion
