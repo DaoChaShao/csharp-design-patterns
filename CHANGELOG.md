@@ -18,6 +18,18 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- implement Main method to demonstrate Law of Demeter usage
+  ([9325f4c0](https://github.com/DaoChaShao/csharp-basic/commit/9325f4c011f0723ba154f8272aee40d6f4f338ba))
+- add Driver class to interact with Car and utilize Wheel method
+  ([3308be71](https://github.com/DaoChaShao/csharp-basic/commit/3308be7158027a3f744bf50e01eed10747578ca7))
+- add Car class to encapsulate Engine and provide Wheel method
+  ([15d5f275](https://github.com/DaoChaShao/csharp-basic/commit/15d5f2753274f33ac3eda58de1e664627ff05b72))
+- add Engine class to initiate the application
+  ([475d9c63](https://github.com/DaoChaShao/csharp-basic/commit/475d9c63468163a586854e0cbb2a9e0bbb9177dd))
+- add project file for Law of Demeter implementation
+  ([51b4f1ee](https://github.com/DaoChaShao/csharp-basic/commit/51b4f1ee028bad5878b2850cefe5a429c1ca4116))
+- add Law of Demeter project to solution
+  ([7ca73b8c](https://github.com/DaoChaShao/csharp-basic/commit/7ca73b8c2b27f4c739556b9a5f434c00970afe43))
 - implement main program to demonstrate Dependency Inversion Principle
   ([a28d6769](https://github.com/DaoChaShao/csharp-basic/commit/a28d6769c2dea9bf596ad0c40a8f5dc4b8be7fe6))
 - add Book class to handle reservation notifications
@@ -118,6 +130,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([0b5ac4d1](https://github.com/DaoChaShao/csharp-basic/commit/0b5ac4d143e47e9fd57738a293002c6bce053340))
 - update CHANGELOG.md for version 0.1.0 release
   ([5f330803](https://github.com/DaoChaShao/csharp-basic/commit/5f330803e563e28ded35577ad66f8398ab9d3e86))
 - update CHANGELOG.md for version 0.1.0 release
