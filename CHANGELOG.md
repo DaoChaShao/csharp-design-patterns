@@ -4,7 +4,7 @@ __CHANGELOG__
 
 _All notable changes to this project will be documented in this file:_
 
-# v 0.1.0  (2025-08-20)
+# v 0.1.0  (2025-08-21)
 
 
 
@@ -18,6 +18,20 @@ _All notable changes to this project will be documented in this file:_
 
 ## Features
 
+- implement main program to demonstrate Dependency Inversion Principle
+  ([a28d6769](https://github.com/DaoChaShao/csharp-basic/commit/a28d6769c2dea9bf596ad0c40a8f5dc4b8be7fe6))
+- add Book class to handle reservation notifications
+  ([cca10924](https://github.com/DaoChaShao/csharp-basic/commit/cca109240d924ba8a83219783f103e77281c04db))
+- add Sms notifier implementation for notification functionality
+  ([43026550](https://github.com/DaoChaShao/csharp-basic/commit/43026550310ab4c6e53c9fd304c73cba9ffbf095))
+- implement Email notifier for notification functionality
+  ([710a589b](https://github.com/DaoChaShao/csharp-basic/commit/710a589bb9cf9d5b4f1e9dbd31d53be8212b64e7))
+- add INotifier interface for notification functionality
+  ([bac2b7ab](https://github.com/DaoChaShao/csharp-basic/commit/bac2b7ab6bd627f0c811df1e6acfac950973204d))
+- add project file for Dependency Inversion Principle implementation
+  ([943e61d7](https://github.com/DaoChaShao/csharp-basic/commit/943e61d756846bc7a08edc585a77497268a1f324))
+- add Dependency Inversion Principle project to the solution
+  ([e36d702b](https://github.com/DaoChaShao/csharp-basic/commit/e36d702b4131f6693bfe10d9736fd92c68eee653))
 - add Program class to demonstrate usage of OldFashionedPrinter and MultiplePrinter
   ([81a74d12](https://github.com/DaoChaShao/csharp-basic/commit/81a74d129aaee6ebf258c2fffecb308668b9e82b))
 - implement MultiplePrinter class with IPrint, IFax, ICopy, and IScan interfaces
@@ -104,6 +118,8 @@ _All notable changes to this project will be documented in this file:_
 
 ## Chore
 
+- update CHANGELOG.md for version 0.1.0 release
+  ([5f330803](https://github.com/DaoChaShao/csharp-basic/commit/5f330803e563e28ded35577ad66f8398ab9d3e86))
 - update CHANGELOG.md for version 0.1.0 release
   ([e1169218](https://github.com/DaoChaShao/csharp-basic/commit/e1169218d5db7adbbd6859f5b31a34b3048664ed))
 - update CHANGELOG.md for version 0.1.0 release
