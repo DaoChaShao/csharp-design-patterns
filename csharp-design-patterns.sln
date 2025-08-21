@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.C.Liskov.Substituti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.D.Interface.Segregation.Principle", "A.SOLID.D.Interface.Segregation.Principle\A.SOLID.D.Interface.Segregation.Principle.csproj", "{FBB1ECB2-B770-45AF-84B5-0879B8AD12A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SOLID.E.Dependency.Inversion.Principle", "A.SOLID.E.Dependency.Inversion.Principle\A.SOLID.E.Dependency.Inversion.Principle.csproj", "{57D45C8A-EC8D-46FE-8EA2-2A95FCA94632}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{FBB1ECB2-B770-45AF-84B5-0879B8AD12A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB1ECB2-B770-45AF-84B5-0879B8AD12A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB1ECB2-B770-45AF-84B5-0879B8AD12A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D45C8A-EC8D-46FE-8EA2-2A95FCA94632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D45C8A-EC8D-46FE-8EA2-2A95FCA94632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D45C8A-EC8D-46FE-8EA2-2A95FCA94632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D45C8A-EC8D-46FE-8EA2-2A95FCA94632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
